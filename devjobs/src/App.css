@@ -1,0 +1,670 @@
+body {
+  height: 100vh;
+  background-color: #F4F6F8;
+
+}
+* {
+  box-sizing: border-box;
+}
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+
+a, p, button, h1, h2 {
+  font-family: 'Kumbh Sans';
+}
+button {
+  cursor: pointer;
+}
+
+/* Header Styles */
+#root {
+ 
+  
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2rem;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+a {
+  text-decoration: none;
+  
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.topBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+.line {
+  opacity: 0.2;
+  background: #6E8098;
+  width: 1px;
+  height: 80px;
+}
+.topLogo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 44px;
+}
+.topBg img {
+  width: 100%;
+  height: 160px;
+}
+.darkMode {
+  display: flex;
+  align-items: center;
+}
+/* .darkModeBtn button{
+  background-color: #FFF;
+} */
+.sun{
+  margin-right: -75px;
+}
+.moon{
+  margin-left: -75px;
+}
+.header {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #FFF;
+  align-items: center;
+  border-radius: 6px;
+  margin-bottom: 105px;
+}
+
+.header-left {
+  display: flex;
+  margin-left: 32px;
+  margin-right: 172px;
+}
+
+.header-left input {
+  height: 16px;
+  width: 271px;
+  border: none;
+  margin-left: 16px;
+  outline: none;
+  font-family: 'Kumbh Sans';
+}
+
+.header-middle {
+  margin-left: 23px;
+  display: flex;
+}
+
+.header-middle input {
+  border: none;
+  outline: none;
+  width: 135px;
+  margin-right: 158px;
+  font-family: 'Kumbh Sans';
+}
+.header-middle img {
+  margin-right: 16px;
+}
+.header-right input{
+  width: 24px;
+  height: 24px;
+  margin-left: 32px;
+  margin-right: 16px;
+  border-radius: 3px;
+  opacity: 0.1035;
+  background: #19202D;
+}
+.header-right input:checked {
+  background-color: #5964E0 !important;
+  opacity: 1;
+}
+.header-right button {
+  width: 123px;
+  height: 48px;
+  border-radius: 5px;
+  background: #5964E0;
+  color: #FFF;
+  text-align: center;
+  border: #5964E0;
+  margin-left: 26px;
+  margin-right: 20px;
+}
+.header-right button:hover {
+  background: #939BF4;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+}
+.header-right p {
+  font-weight: 700;
+  width: max-content;
+}
+.job {
+  width: 350px;
+  min-width: 327px;
+  height: 228px;
+  border-radius: 6px;
+  margin-bottom: 65px;
+  text-align: start;
+  padding-left: 32px;
+}
+.job img{
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: -25px;
+}
+.jobs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.postedAt {
+  color: #6E8098;
+  /* font-family: Kumbh Sans; */
+  display: flex;
+  align-items: center;
+  align-self: center;
+  margin-top: -25px;
+}
+.company {
+  margin-top: -5px;
+  margin-bottom: 50px;
+  color: #6E8098;
+}
+.postedAt img{
+  width: 4px;
+  height: 4px;
+  margin-bottom: -50px;
+}
+.postedP {
+  padding-right: 12px;
+}
+.postedP2 {
+  padding-left: 12px;
+}
+.position {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 0px;
+  transition: color 0.3s ease;
+}
+.position:hover {
+  color: #6E8098 !important;
+}
+.location {
+  color: #5964E0 !important;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.topJobDetail {
+  display: flex;
+  max-width: 730px;
+  background-color: #FFF;
+  margin: 0 auto;
+  height: 140px;
+  border-radius: 42px;
+  margin-bottom: 32px;
+  align-items: center;
+  margin-top: -30px;
+
+}
+.topJob {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 2em;
+}
+.topJob p{
+  color: #6E8098;
+  font-family: Kumbh Sans;
+  margin-left: 10px;
+}
+.topJobDetail img {
+  left: 0;
+  height: 100%;
+}
+.topJobDetail button{
+  display: flex;
+  width: 147px;
+  height: 48px;
+  border-radius: 5px;
+  /* background: #e5e7fa; */
+  border: none;
+  align-items: center;
+  justify-content: center;
+  
+}
+.topJobDetail a{
+  margin-left: auto;
+  margin-right: 43px; 
+}
+.topJobDetail button:hover{
+  background: #b9bffa !important;
+}
+.topJobBtn {
+  
+  font-weight: 700;
+  
+}
+
+.jobDetail {
+  max-width: 730px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  background-color: #FFF;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 2rem;
+}
+
+.jobDetail h1, h2 {
+  color: #19202D;
+  width: max-content;
+}
+.postedAtDetail {
+  display: flex;
+  text-align: start;
+}
+.jobDetailApply {
+  display: flex;
+  align-items: center;
+}
+.jobDetail p, li{
+  color: #6E8098;
+  font-family: "Kumbh Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; 
+}
+.jobDetailOl {
+  padding-left: 1em;
+
+}
+
+.jobDetailOl li {
+  color: #5964E0; 
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  line-height: 26px;
+  padding-left: 20px;
+}
+
+
+.jobDetailUl {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.jobDetailUl li::before {
+  content: '\2022';
+  font-size: 1.5em;
+  color: #5964E0; 
+  margin-right: 32px;
+}
+.jobDetailUl li {
+  display: flex;
+  align-items: center;
+}
+
+.jobDetailBottom {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  background-color: #FFF;
+  height: 96px;
+ 
+
+  margin-top: 80px;
+  margin-bottom: -40px;
+}
+.jobDetailB {
+  display: flex;
+  width: 730px;
+  align-items: center;
+  margin: 0 auto;
+  
+}
+.jobDetailB button{
+  margin-left: auto;
+}
+.jobDetailBottomInfo {
+  text-align: start;
+  /* margin-right: -760px; */
+}
+.jobDetailBottom h3 {
+  color: #19202D;
+}
+.jobDetailBottom p, h3 {
+  color: #6E8098;
+  font-family: "Kumbh Sans";
+}
+.jobDetail button {
+  margin-right: 8px;
+  color: #FFF;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  width: 147px;
+  height: 48px;
+  border-radius: 5px;
+  background: #5964E0;
+  border: none; 
+  margin-left: auto;
+}
+.applyNow:hover {
+  background-color: #939BF4;
+}
+.jobDetailBottom button{
+  color: #FFF;
+  text-align: center;
+  font-family: "Kumbh Sans";
+  font-weight: 700;
+  width: 147px;
+  height: 48px;
+  border-radius: 5px;
+  background: #5964E0;
+  border: none;
+  margin-left: auto;
+}
+.jobDetailBottom button:hover {
+  background-color: #939BF4;
+}
+.pcP {
+  display: block;
+}
+.mobileP {
+  display: none;
+}
+.headerMobile {
+  display: none;
+}
+.applyNowMobile {
+  display: none;
+}
+@media (max-width: 830px) {
+  .jobDetailB {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  
+  }
+}
+@media (max-width: 1270px) {
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .header-left {
+    margin-left: 32px;
+    margin-right: 0;
+    width: 33%;
+  }
+  .header-left input {
+    width: auto;
+    margin-left: 0;
+  }
+  .header-middle {
+    
+    width: 33%;
+  }
+  .header-middle input {
+    width: auto;
+    margin-right: 0;
+  }
+  .header-right input {
+    margin-left: 20px;
+    margin-right: 0;
+    width: 24px;
+    height: 24px;
+  }
+  .pcP {
+    display: none;
+  }
+  .mobileP {
+    display: block; 
+    width: max-content;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .job {
+    width: 339px;
+    height: 228px;
+  }
+  .header-righ {
+    max-width: 33%;
+  }
+  .header-right button {
+    width: 80px;
+    margin-right: 30px;
+  }
+  .header-right p {
+    padding-left: 20px;
+  }
+  .jobDetailBottomInfo {
+    margin-right: 0; 
+  }
+  
+  .jobDetailB {
+    display: flex;
+    max-width: 730px;
+    width: auto;
+  }
+  .jobDetailB button {
+    margin-left: auto;
+    
+  }
+  
+}
+
+@media (max-width: 773px) {
+  .header {
+    display: none;
+  }
+  .jobs{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .job {
+    width: 327px;
+  }
+  .headerMobile {
+    display: block;
+    width: 327px;
+    height: 80px;
+    margin-bottom: 57px;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+  }
+  .header-leftMobile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .header-leftMobile input{
+    border: none;
+    padding-left: 24px;
+    outline: none;
+  }
+  .header-leftMobile button{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 6px;
+    margin-left: 7px;
+  }
+  .mobileSearch {
+    background: none;
+  }
+  .headerLeftinR {
+    display: flex;
+  }
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 327px;
+    height: 217px;
+    justify-content: center;
+    align-items: center;   
+  }
+  .header-middleMobile {
+    display: flex;
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+  .header-middleMobile input {
+    border: none;
+    outline: none;
+    margin-left: 16px;
+  }
+  .mobileLine {
+    display: block;
+    width: 100%;
+    height: 1px;
+    opacity: 0.2;
+    background: #6E8098;
+    margin-top: 24px;
+  }
+  .header-rightMobile {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .header-rightMobile input {
+    width: 24px;
+    height: 24px;
+    border-radius: 3px;
+    opacity: 0.1035;
+    margin-left: 24px;
+    margin-right: 16px;
+  }
+  .modalBtn button{
+    width: 279px;
+    height: 48px;
+    border-radius: 5px;
+    background: #5964E0;
+    margin-left: 24px;
+    border: none;
+    color: #FFF;
+    font-family: "Kumbh Sans";
+    font-size: 16px;
+    font-weight: 700;
+    top: 24px;
+  } 
+  .topJob {
+    margin-left: 0;
+    
+  }
+  
+ 
+  .topJob p {
+    margin-top: 5px;
+  }
+  .topJobDetail img {
+    position: relative;
+    top: -25px;
+    bottom: 0;
+    width: 50px;
+    height: 50px;
+    
+  }
+  .topJobDetail {
+    
+    height: 205px;
+    border-radius: 6px;
+    flex-direction: column;
+    justify-content: center;
+    
+  }
+  .topJobDetail button{
+    position: relative;
+    top: -25px;
+  }
+  .topJobDetail a {
+    margin-left: 0;
+    margin-right: 0;
+    position: relative;
+  }
+  .tobJobDetailP {
+    position: relative;
+    top: -35px;
+  }
+  .tobJobDetailh2 {
+    position: relative;
+    top: -25px;
+  }
+  .jobDetailApply h1 {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+  }
+  .jobDetailApply {
+    flex-direction: column;
+    align-items: start;
+  }
+  .applyNowMobile {
+    display: block;
+  }
+  .jobDetail button {
+    width: 100%;
+  }
+  .applyNow {
+    display: none;
+  }
+  .jobDetailBottomInfo {
+    display: none;
+  }
+  .jobDetailBottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .jobDetailB {
+    width: 100%;
+  }
+  .jobDetailBottom button {
+    min-width: 300px;
+    width: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+}
