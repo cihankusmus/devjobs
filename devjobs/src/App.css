@@ -84,9 +84,24 @@ a {
   display: flex;
   align-items: center;
 }
-/* .darkModeBtn button{
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch.ant-switch-checked:not(.ant-switch-disabled) {
   background-color: #FFF;
-} */
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+  background-color: #FFF;
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:not(.ant-switch-disabled) {
+  background-color: #FFF;
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:hover:not(.ant-switch-disabled) {
+  background-color: #FFF;
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch .ant-switch-handle::before {
+  background-color: #5964E0; 
+}
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:hover .ant-switch-handle::before {
+  background-color: #939BF4; 
+}
 .sun{
   margin-right: -75px;
 }
@@ -135,18 +150,35 @@ a {
 .header-middle img {
   margin-right: 16px;
 }
-.header-right input{
-  width: 24px;
-  height: 24px;
+.checkbox-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px !important;
+  height: 24px !important;
   margin-left: 32px;
   margin-right: 16px;
-  border-radius: 3px;
-  opacity: 0.1035;
-  background: #19202D;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  position: relative;
+  background-color: #5964E0;
 }
-.header-right input:checked {
+.header-right .checkbox-button:hover {
+  background: #5964E0 !important;
+  opacity: 0.25;
+}
+
+ .checkbox-button img {
+  opacity: 0; 
+}
+
+ .checkbox-button.checked {
   background-color: #5964E0 !important;
-  opacity: 1;
+
+}
+ .checkbox-button.checked img {
+  opacity: 1; 
 }
 .header-right button {
   width: 123px;
@@ -159,13 +191,16 @@ a {
   margin-left: 26px;
   margin-right: 20px;
 }
+
 .header-right button:hover {
   background: #939BF4;
 }
+
 .header-right {
   display: flex;
   align-items: center;
 }
+
 .header-right p {
   font-weight: 700;
   width: max-content;
@@ -305,6 +340,9 @@ a {
 .jobDetail h1, h2 {
   color: #19202D;
   width: max-content;
+}
+.jobDetail h2 {
+  margin-top: 40px;
 }
 
 .postInfo .location{
@@ -643,13 +681,10 @@ a {
     margin-top: 8px;
     margin-bottom: 8px;
   }
-  .header-rightMobile input {
-    width: 24px;
-    height: 24px;
+  
+  .checkbox-button {
     border-radius: 3px;
-    opacity: 0.1035;
     margin-left: 24px;
-    margin-right: 16px;
   }
   .modalBtn button{
     width: 279px;

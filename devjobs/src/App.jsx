@@ -14,6 +14,8 @@ import searchBtn from '../public/searchBtn.svg';
 // import { genHoverStyle } from 'antd/es/input/style';
 import Modal from 'react-modal';
 import data from './data';
+import tik from '../public/tik.png'
+
 Modal.setAppElement('#root');
 
 
@@ -176,7 +178,13 @@ function App() {
               <div className="line"></div>
     
               <div className="header-right">
-                <input type="checkbox" checked={isFullTime} onChange={() => setIsFullTime(!isFullTime)} style={switchsDark ? { backgroundColor: '#19202D' } : { backgroundColor: '#6E8098' }} />
+                <button 
+                className={`checkbox-button ${isFullTime ? 'checked' : ''}`} 
+                onClick={() => setIsFullTime(!isFullTime)}
+                style={switchsDark ? { backgroundColor: 'rgba(54, 59, 65, 0.72)' } : { backgroundColor: '#F4F6F8' }}
+                >
+                   <img src={tik} alt="" />
+                </button>
                 <p className='pcP' style={switchsDark ? { color: '#FFF' } : { color: '#19202D' }}>Full Time Only</p>
                 <p className='mobileP' style={switchsDark ? { color: '#FFF' } : { color: '#19202D' }}>Full Time</p>
                 <button onClick={handleSearch}>Search</button>
@@ -239,7 +247,13 @@ function App() {
               
     
               <div className="header-rightMobile">
-                <input type="checkbox" checked={isFullTime} onChange={() => setIsFullTime(!isFullTime)} style={switchsDark ? { backgroundColor: '#19202D' } : { backgroundColor: '#6E8098' }} />
+              <button 
+                className={`checkbox-button ${isFullTime ? 'checked' : ''}`} 
+                onClick={() => setIsFullTime(!isFullTime)}
+                style={switchsDark ? { backgroundColor: 'rgba(54, 59, 65, 0.72)' } : { backgroundColor: '#F4F6F8' }}
+                >
+                   <img src={tik} alt="" />
+                </button>
                 <p className='mobileP' style={switchsDark ? { color: '#FFF' } : { color: '#19202D' }}>Full Time Only</p>
               </div>
               <div className="modalBtn"><button onClick={() => { handleSearch(); handleModalClose(); }} className='modalBtn'>Search</button></div>
