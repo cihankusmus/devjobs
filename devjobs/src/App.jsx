@@ -51,17 +51,19 @@ function App() {
         </div>
   
         <div className='jobDetail' style={switchsDark ? {backgroundColor: '#19202D'} : {backgroundColor: '#FFF'}}>
-          <div className="postedAtDetail">
-              <p className='postedP'>{job.postedAt}</p>
-              <img src={oval} alt="" />
-              <p className='postedP2'>{job.contract}</p>
+          <div className="postInfo">
+            <div className="postedAtDetail">
+                <p className='postedP'>{job.postedAt}</p>
+                <img src={oval} alt="" />
+                <p className='postedP2'>{job.contract}</p>
+            </div>
+            <div className="jobDetailApply">
+            <h1 style={switchsDark ? {color: '#FFF'} : {color: '#19202D'}}>{job.position}</h1>
+            <button className='applyNow'>Apply Now</button>
+            </div>
+            <p className='location'>{job.location}</p>
+            <button className='applyNowMobile'>Apply Now</button>
           </div>
-          <div className="jobDetailApply">
-          <h1 style={switchsDark ? {color: '#FFF'} : {color: '#19202D'}}>{job.position}</h1>
-          <button className='applyNow'>Apply Now</button>
-          </div>
-          <p className='location'>{job.location}</p>
-          <button className='applyNowMobile'>Apply Now</button>
           <h2 style={switchsDark ? {color: '#FFF'} : {color: '#19202D'}}>Requirements</h2>
           <p>{job.requirements.content}</p>
           <ul className='jobDetailUl'>
@@ -106,6 +108,7 @@ function App() {
     const [locationFilter, setLocationFilter] = useState('');
     const [isFullTime, setIsFullTime] = useState(false);
     const [filteredData, setFilteredData] = useState(data);
+    const [visibleJobs, setVisibleJobs] = useState(12);
 
     const handleSearch = () => {
       const newFilteredData = data.filter((job) => {
@@ -120,6 +123,10 @@ function App() {
       });
 
       setFilteredData(newFilteredData);
+    };
+
+    const handleLoadMore = () => {
+      setVisibleJobs((VisibleJobs) => VisibleJobs + 3);
     };
 
     const handleModalClick = () => {
@@ -246,7 +253,7 @@ function App() {
             
           
 
-            {filteredData.map((job) => (
+            {filteredData.slice(0, visibleJobs).map((job) => (
               <Link to={`/${job.company}`} key={job.id}  >
                 <div className="job" style={switchsDark ? {backgroundColor: '#19202D'} : {backgroundColor: '#FFF'}}>
                   <div className="jobsLogo"><img src={job.logo} alt="" /></div>
@@ -261,6 +268,10 @@ function App() {
                 </div>
               </Link>
             ))}
+
+            <div className="bottomBtn">
+              <button onClick={handleLoadMore}>Load More</button>
+            </div>
       </div>
       
     );
@@ -279,7 +290,7 @@ function App() {
 
   return (
     <Router>
-      <div className="container" >
+      <div className="TopContainer" >
         <div className="topheader">
           <div className='topBg'>
             <img src={topBg} alt="" />

@@ -383,102 +383,195 @@ const data = [
         "Enforce code quality through test driven development via unit tests and automated tests."
       ]
     }
+  },
+  {
+    "id": 13,
+    "company": "Crowdfund",
+    "logo": "../public/1.svg",
+    "logoBackground": "hsl(157, 57%, 50%)",
+    "position": "Front-end Developer",
+    "postedAt": "1mo ago",
+    "contract": "Full Time",
+    "location": "New Zealand",
+    "website": "https://example.com/crowdfund",
+    "apply": "https://example.com/crowdfund/apply",
+    "description": "We’re hiring a Front-end Developer to help create the front-end experience for Crowdfund’s management interface. As our ideal candidate, you’re an adept user of the front-end stack (React, Yarn, webpack, Babel, SCSS, JSX, GraphQL) and an avid learner of new frameworks. You enjoy building excellent user experiences as well as reusable components that other developers can use to solve similar problems. You love open-source and being part of a thriving developer community and understand that strong businesses enable great enduring communities.",
+    "requirements": {
+      "content": "As a mid-level developer, we expect you to have a complete understanding of JavaScript, CSS, and HTML, and proven experience building and deploying single-page applications at scale. Experience with modern JavaScript application frameworks is a given, but you also have the ability to think outside the frameworks.",
+      "items": [
+        "Multiple years of React experience",
+        "Good eye for detail",
+        "Passion for great user experience and API design",
+        "Comfortable working with cross-functional and cross-cultural teams"
+      ]
+    },
+    "role": {
+      "content": "We want people who are passionate about building apps that you and your peers will love. We are looking for an experienced Front-end Developer who shares our passion for making complex applications appear simple for our customers. We’ll give you the freedom to do what you do best, so you should feel comfortable owning your work from start to finish, as well as bringing fresh ideas to the table that can make our products, development experience, and team better. You’ll have the opportunity to work closely with designers, product managers, and other engineers across the stack to make ideas a reality.",
+      "items": [
+        "Working with our team to build out our React/Typescript/GraphQL stack",
+        "Collaborating with product and design to increase conversions and improve user experience",
+        "Building new, efficient, and scalable front-end applications that will interface with public and internal APIs",
+        "Writing clean, maintainable, and testable code",
+        "Work with backend teams to solve complex problems"
+      ]
+    }
+  },
+  {
+    "id": 14,
+    "company": "Coffeeroasters",
+    "logo": "../public/3.svg",
+    "logoBackground": "hsl(29, 60%, 87%)",
+    "position": "Junior Full-Stack Developer",
+    "postedAt": "1mo ago",
+    "contract": "Full Time",
+    "location": "Singapore",
+    "website": "https://example.com/coffeeroasters",
+    "apply": "https://example.com/coffeeroasters/apply",
+    "description": "We’re looking for a Junior Full-Stack Developer to join our Product and Engineering team. This is an exciting opportunity to work on building our core web application.",
+    "requirements": {
+      "content": "This is an entry level full stack developer position that will assist in developing the next generation apps and APIs. You will be a contributor to agile teams by providing services that ensure Coffeeroasters is aligning technology efforts with business information needs. The intent is to develop a junior full stack developer to become a well-rounded API developer ready to take on any challenging opportunity.",
+      "items": [
+        "A degree in Computer Science or an equivalent engineering foundation.",
+        "Experience in Python and/or JavaScript.",
+        "Ability to thrive in a fast-paced startup.",
+        "Someone who loves to learn and is passionate about helping others."
+      ]
+    },
+    "role": {
+      "content": "We're looking for a dynamic individual who is no stranger to building well-designed, performant and effective front-end web applications that support complex business rules/flows. You will start by learning from the experiences of our current team and our current offerings and become intimately familiar with our codebase. You will leverage your experience to establish best practices for web development and drive the team and the codebase to a higher level.",
+      "items": [
+        "Write frontend code and build UI to implement new features. Includes taking in data from our API, structuring that data, and displaying it.",
+        "Build backend code for API.",
+        "Consistently improve our platform so we can deliver features quickly with high reliability and scalability.",
+        "Apply user experience methodology and best practices to translate user needs and business requirements into engaging user-centered design.",
+        "Write/maintain documentation for the client and other team members."
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "company": "Blogr",
+    "logo": "../public/5.svg",
+    "logoBackground": "hsl(12, 79%, 52%)",
+    "position": "Midweight Front-end Developer",
+    "postedAt": "1mo ago",
+    "contract": "Full Time",
+    "location": "United States",
+    "website": "https://example.com/blogr",
+    "apply": "https://example.com/blogr/apply",
+    "description": "We’re looking for a Frontend Developer who values user experience, performance and accessibility. Through our enduring interest in how people use our products, Blogr embraces a model of software development that is iterative and gradual. Like high-performance engines, our products are built through a process of continuous refinement (usually on two week release cycles). We’re looking for someone who is comfortable embodying this approach.",
+    "requirements": {
+      "content": "You will be responsible for writing and debugging your code while writing your own unit tests. We are looking for self-motivated developers who are interested in learning and can quickly pick up new technologies. We’re a relatively small team in a stable yet fast growing company and would love for you to join us.",
+      "items": [
+        "Experience in JavaScript software development, preferably in a product company",
+        "Experience with React and state management libraries (such as Redux or Mobx)",
+        "Understand cross-browser compatibility issues and ways to work around them.",
+        "English language fluency, excellent communication skills"
+      ]
+    },
+    "role": {
+      "content": "In this role, you are part of our Product team comprised of Frontend & Backend Developers, UX & UI Specialists and Product Owners. You'll work on mission critical projects from the first day on, support other engineers, share your knowledge with your colleagues, and contribute to agile projects.",
+      "items": [
+        "Help define our software engineering culture",
+        "Write high quality software for the frontend",
+        "Do code reviews",
+        "Proactively solve the problems most important to the business"
+      ]
+    }
+  },
+  {
+    "id": 16,
+    "company": "Pomodoro",
+    "logo": "../public/7.svg",
+    "logoBackground": "hsl(254, 71%, 45%)",
+    "position": "iOS Engineer",
+    "postedAt": "1w ago",
+    "contract": "Full Time",
+    "location": "United States",
+    "website": "https://example.com/pomodoro",
+    "apply": "https://example.com/pomodoro/apply",
+    "description": "We are looking for thoughtful, well-rounded iOS engineer to join our team. We’re looking for someone to help build out the foundation of the app and infrastructure. If you are interested in taking part in building an application that millions of people use every day to increase their productivity, this is the perfect opportunity. You will play an important part in our mobile engineering practice, implementing new features, improving performance, and building beautiful user interfaces.",
+    "requirements": {
+      "content": "You are an experienced mobile engineer looking to make Pomodoro one of the best mobile experiences out there. You are someone who excels at customer-centric product development and has a passion for working on application architecture and design, and making smooth, delightful experiences. You care deeply about quality, are energized by partnership and collaboration, and you strive to enable others around you to excel.",
+      "items": [
+        "Strong programming skills in Objective-C and/or Swift",
+        "Previous experience developing mobile applications on iOS",
+        "Experience working closely across a variety of teams, including product management, design, and engineering",
+        "Knowledge of core CS concepts such as common data structures and algorithms, profiling, and optimization"
+      ]
+    },
+    "role": {
+      "content": "You will be responsible for building infrastructure and abstractions to help us double our engineering velocity.  You will work at all layers of the stack and closely with partners across engineering, data science, research, product, and design. You will help our codebase stay ahead of the curve of the constantly evolving development ecosystem.",
+      "items": [
+        "Design and develop UI components that make feature development faster, baking in consistency and accessibility to the designs",
+        "Build frameworks and infrastructure to make product development faster, safer, and more consistent",
+        "Improve the performance and stability of the mobile app",
+        "Strive to keep the mobile codebase secure"
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "company": "Maker",
+    "logo": "../public/8.svg",
+    "logoBackground": "hsl(218, 58%, 31%)",
+    "position": "Senior EJB Developer",
+    "postedAt": "1w ago",
+    "contract": "Full Time",
+    "location": "United Kingdom",
+    "website": "https://example.com/maker",
+    "apply": "https://example.com/maker/apply",
+    "description": "We are seeking an experienced EJB Developer who will join our fast-growing engineering team, working on mission-critical applications. Searching for a Senior Java Developer who thrives on working with enterprises in multiple industries with unique business challenges requiring sophisticated solution design.",
+    "requirements": {
+      "content": "The candidate must have work experience in all aspects of designing and constructing J2EE/EJB systems and developing system requirements and design specifications, and J2EE/EJB Coding for new and existing applications.",
+      "items": [
+        "Computer Science degree or equivalent",
+        "Experience with EJB, J2EE,Tomcat, JBoss andrelational databases such as MySQL, MSSQL, Oracle",
+        "At least three years of post-graduate experience",
+        "Deep understanding of OO programming principals and commitment to clean, efficient, well documented code."
+      ]
+    },
+    "role": {
+      "content": "Job responsibilities will include developing scalable Java applications while providing expertise in the full software development lifecycle, from concept and design to testing.",
+      "items": [
+        "Design and develop high-volume, low-latency applications that enhance Maker's core platform",
+        "Create well designed, testable, efficient code",
+        "Participate in all phases of the development lifecycle",
+        "Investigate alternatives and technologies and present them for architectural review, in order to support continuous improvement"
+      ]
+    }
+  },
+  {
+    "id": 18,
+    "company": "Coffeeroasters",
+    "logo": "../public/9.svg",
+    "logoBackground": "hsl(29, 60%, 87%)",
+    "position": "Senior Frontend Developer",
+    "postedAt": "1w ago",
+    "contract": "Part Time",
+    "location": "Singapore",
+    "website": "https://example.com/coffeeroasters",
+    "apply": "https://example.com/coffeeroasters/apply",
+    "description": "We’re looking for an experienced Frontend Developer with an eye for Product Design along with a honed set of coding skills and who shares our values around technology. Most importantly, we’d like someone who is collaborative and can work closely with the rest of our team shaping product.",
+    "requirements": {
+      "content": "You will be responsible for executing high quality solutions for customers and contributing to the day-to-day technical excellence of a delivery team. You should have a deep understanding of Modern JavaScript, HTML and CSS, the software development life cycle, and possess the ability to implement and execute standard software architecture patterns.",
+      "items": [
+        "4+ years of experience of Frontend Development", 
+        "Expertise with React required", 
+        "Expertise with Next.js, Apollo, Typescript, and GraphQL preferred"
+      ]
+    },
+    "role": {
+      "content": "Beyond working closely with our team to build an exciting app, you’ll be leading Frontend development of our React/Next.js product. You’ll be coming up with UI/UX for the app and making architectural decisions for the frontend.",
+      "items": [
+        "Use your thorough understanding of core client-side technologies to architect complex user interactions for desktop and mobile browsers using React", 
+        "Create universal JS modules to be used on both the client and the server", 
+        "Lead, direct and mentor more junior team members (including code review)", 
+        "Cover your code with unit and integration tests written with Jest and Mocha", 
+        "Take part in decision-making around major architectural choices of the front-end team"
+      ]
+    }
   }
-  // {
-  //   "id": 13,
-  //   "company": "Crowdfund",
-  //   "logo": "./assets/logos/crowdfund.svg",
-  //   "logoBackground": "hsl(157, 57%, 50%)",
-  //   "position": "Front-end Developer",
-  //   "postedAt": "1mo ago",
-  //   "contract": "Full Time",
-  //   "location": "New Zealand",
-  //   "website": "https://example.com/crowdfund",
-  //   "apply": "https://example.com/crowdfund/apply",
-  //   "description": "We’re hiring a Front-end Developer to help create the front-end experience for Crowdfund’s management interface. As our ideal candidate, you’re an adept user of the front-end stack (React, Yarn, webpack, Babel, SCSS, JSX, GraphQL) and an avid learner of new frameworks. You enjoy building excellent user experiences as well as reusable components that other developers can use to solve similar problems. You love open-source and being part of a thriving developer community and understand that strong businesses enable great enduring communities.",
-  //   "requirements": {
-  //     "content": "As a mid-level developer, we expect you to have a complete understanding of JavaScript, CSS, and HTML, and proven experience building and deploying single-page applications at scale. Experience with modern JavaScript application frameworks is a given, but you also have the ability to think outside the frameworks.",
-  //     "items": [
-  //       "Multiple years of React experience",
-  //       "Good eye for detail",
-  //       "Passion for great user experience and API design",
-  //       "Comfortable working with cross-functional and cross-cultural teams"
-  //     ]
-  //   },
-  //   "role": {
-  //     "content": "We want people who are passionate about building apps that you and your peers will love. We are looking for an experienced Front-end Developer who shares our passion for making complex applications appear simple for our customers. We’ll give you the freedom to do what you do best, so you should feel comfortable owning your work from start to finish, as well as bringing fresh ideas to the table that can make our products, development experience, and team better. You’ll have the opportunity to work closely with designers, product managers, and other engineers across the stack to make ideas a reality.",
-  //     "items": [
-  //       "Working with our team to build out our React/Typescript/GraphQL stack",
-  //       "Collaborating with product and design to increase conversions and improve user experience",
-  //       "Building new, efficient, and scalable front-end applications that will interface with public and internal APIs",
-  //       "Writing clean, maintainable, and testable code",
-  //       "Work with backend teams to solve complex problems"
-  //     ]
-  //   }
-  // },
-  // {
-  //   "id": 14,
-  //   "company": "Coffeeroasters",
-  //   "logo": "./assets/logos/coffeeroasters.svg",
-  //   "logoBackground": "hsl(29, 60%, 87%)",
-  //   "position": "Junior Full-Stack Developer",
-  //   "postedAt": "1mo ago",
-  //   "contract": "Full Time",
-  //   "location": "Singapore",
-  //   "website": "https://example.com/coffeeroasters",
-  //   "apply": "https://example.com/coffeeroasters/apply",
-  //   "description": "We’re looking for a Junior Full-Stack Developer to join our Product and Engineering team. This is an exciting opportunity to work on building our core web application.",
-  //   "requirements": {
-  //     "content": "This is an entry level full stack developer position that will assist in developing the next generation apps and APIs. You will be a contributor to agile teams by providing services that ensure Coffeeroasters is aligning technology efforts with business information needs. The intent is to develop a junior full stack developer to become a well-rounded API developer ready to take on any challenging opportunity.",
-  //     "items": [
-  //       "A degree in Computer Science or an equivalent engineering foundation.",
-  //       "Experience in Python and/or JavaScript.",
-  //       "Ability to thrive in a fast-paced startup.",
-  //       "Someone who loves to learn and is passionate about helping others."
-  //     ]
-  //   },
-  //   "role": {
-  //     "content": "We're looking for a dynamic individual who is no stranger to building well-designed, performant and effective front-end web applications that support complex business rules/flows. You will start by learning from the experiences of our current team and our current offerings and become intimately familiar with our codebase. You will leverage your experience to establish best practices for web development and drive the team and the codebase to a higher level.",
-  //     "items": [
-  //       "Write frontend code and build UI to implement new features. Includes taking in data from our API, structuring that data, and displaying it.",
-  //       "Build backend code for API.",
-  //       "Consistently improve our platform so we can deliver features quickly with high reliability and scalability.",
-  //       "Apply user experience methodology and best practices to translate user needs and business requirements into engaging user-centered design.",
-  //       "Write/maintain documentation for the client and other team members."
-  //     ]
-  //   }
-  // },
-  // {
-  //   "id": 15,
-  //   "company": "Blogr",
-  //   "logo": "./assets/logos/blogr.svg",
-  //   "logoBackground": "hsl(12, 79%, 52%)",
-  //   "position": "Midweight Front-end Developer",
-  //   "postedAt": "1mo ago",
-  //   "contract": "Full Time",
-  //   "location": "United States",
-  //   "website": "https://example.com/blogr",
-  //   "apply": "https://example.com/blogr/apply",
-  //   "description": "We’re looking for a Frontend Developer who values user experience, performance and accessibility. Through our enduring interest in how people use our products, Blogr embraces a model of software development that is iterative and gradual. Like high-performance engines, our products are built through a process of continuous refinement (usually on two week release cycles). We’re looking for someone who is comfortable embodying this approach.",
-  //   "requirements": {
-  //     "content": "You will be responsible for writing and debugging your code while writing your own unit tests. We are looking for self-motivated developers who are interested in learning and can quickly pick up new technologies. We’re a relatively small team in a stable yet fast growing company and would love for you to join us.",
-  //     "items": [
-  //       "Experience in JavaScript software development, preferably in a product company",
-  //       "Experience with React and state management libraries (such as Redux or Mobx)",
-  //       "Understand cross-browser compatibility issues and ways to work around them.",
-  //       "English language fluency, excellent communication skills"
-  //     ]
-  //   },
-  //   "role": {
-  //     "content": "In this role, you are part of our Product team comprised of Frontend & Backend Developers, UX & UI Specialists and Product Owners. You'll work on mission critical projects from the first day on, support other engineers, share your knowledge with your colleagues, and contribute to agile projects.",
-  //     "items": [
-  //       "Help define our software engineering culture",
-  //       "Write high quality software for the frontend",
-  //       "Do code reviews",
-  //       "Proactively solve the problems most important to the business"
-  //     ]
-  //   }
-  // }
 ]
 
 export default data;
