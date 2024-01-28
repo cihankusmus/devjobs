@@ -1,19 +1,22 @@
 body {
   height: 100vh;
-  background-color: #F4F6F8;
-
+  background-color: #f4f6f8;
 }
 * {
   box-sizing: border-box;
 }
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
 }
 
-
-a, p, button, h1, h2 {
-  font-family: 'Kumbh Sans';
+a,
+p,
+button,
+h1,
+h2 {
+  font-family: "Kumbh Sans";
 }
 button {
   cursor: pointer;
@@ -47,7 +50,6 @@ button {
 }
 a {
   text-decoration: none;
-  
 }
 
 .card {
@@ -67,14 +69,13 @@ a {
 }
 .line {
   opacity: 0.2;
-  background: #6E8098;
+  background: #6e8098;
   width: 1px;
   height: 80px;
 }
 .topLogo {
   display: flex;
   justify-content: space-between;
-  
 }
 .topBg img {
   width: 100%;
@@ -84,28 +85,38 @@ a {
   display: flex;
   align-items: center;
 }
-:where(.css-dev-only-do-not-override-dkbvqv).ant-switch.ant-switch-checked:not(.ant-switch-disabled) {
-  background-color: #FFF;
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch.ant-switch-checked:not(
+    .ant-switch-disabled
+  ) {
+  background-color: #fff;
 }
-:where(.css-dev-only-do-not-override-dkbvqv).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
-  background-color: #FFF;
+:where(
+    .css-dev-only-do-not-override-dkbvqv
+  ).ant-switch.ant-switch-checked:hover:not(.ant-switch-disabled) {
+  background-color: #fff;
 }
-:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:not(.ant-switch-disabled) {
-  background-color: #FFF;
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:not(
+    .ant-switch-disabled
+  ) {
+  background-color: #fff;
 }
-:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:hover:not(.ant-switch-disabled) {
-  background-color: #FFF;
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:hover:not(
+    .ant-switch-disabled
+  ) {
+  background-color: #fff;
 }
-:where(.css-dev-only-do-not-override-dkbvqv).ant-switch .ant-switch-handle::before {
-  background-color: #5964E0; 
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch
+  .ant-switch-handle::before {
+  background-color: #5964e0;
 }
-:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:hover .ant-switch-handle::before {
-  background-color: #939BF4; 
+:where(.css-dev-only-do-not-override-dkbvqv).ant-switch:hover
+  .ant-switch-handle::before {
+  background-color: #939bf4;
 }
-.sun{
+.sun {
   margin-right: -75px;
 }
-.moon{
+.moon {
   margin-left: -75px;
 }
 .header {
@@ -113,7 +124,7 @@ a {
   display: flex;
   width: 100%;
   height: 80px;
-  background-color: #FFF;
+  background-color: #fff;
   align-items: center;
   border-radius: 6px;
   margin-bottom: 105px;
@@ -131,7 +142,7 @@ a {
   border: none;
   margin-left: 16px;
   outline: none;
-  font-family: 'Kumbh Sans';
+  font-family: "Kumbh Sans";
 }
 
 .header-middle {
@@ -144,8 +155,8 @@ a {
   border: none;
   outline: none;
   width: 135px;
-  
-  font-family: 'Kumbh Sans';
+
+  font-family: "Kumbh Sans";
 }
 .header-middle img {
   margin-right: 16px;
@@ -162,38 +173,37 @@ a {
   border: none;
   background: transparent;
   position: relative;
-  background-color: #5964E0;
+  background-color: #5964e0;
 }
 .header-right .checkbox-button:hover {
-  background: #5964E0 !important;
+  background: #5964e0 !important;
   opacity: 0.25;
 }
 
- .checkbox-button img {
-  opacity: 0; 
+.checkbox-button img {
+  opacity: 0;
 }
 
- .checkbox-button.checked {
-  background-color: #5964E0 !important;
-
+.checkbox-button.checked {
+  background-color: #5964e0 !important;
 }
- .checkbox-button.checked img {
-  opacity: 1; 
+.checkbox-button.checked img {
+  opacity: 1;
 }
 .header-right button {
   width: 123px;
   height: 48px;
   border-radius: 5px;
-  background: #5964E0;
-  color: #FFF;
+  background: #5964e0;
+  color: #fff;
   text-align: center;
-  border: #5964E0;
+  border: #5964e0;
   margin-left: 26px;
   margin-right: 20px;
 }
 
 .header-right button:hover {
-  background: #939BF4;
+  background: #939bf4;
 }
 
 .header-right {
@@ -214,7 +224,7 @@ a {
   text-align: start;
   padding-left: 32px;
 }
-.job img{
+.job img {
   height: 50px;
   width: 50px;
   position: relative;
@@ -226,7 +236,7 @@ a {
   justify-content: space-between;
 }
 .postedAt {
-  color: #6E8098;
+  color: #6e8098;
   /* font-family: Kumbh Sans; */
   display: flex;
   align-items: center;
@@ -236,16 +246,16 @@ a {
 }
 .company {
   margin: 0;
-  color: #6E8098;
+  color: #6e8098;
   height: 16px;
   margin-bottom: 44px;
 }
-.postedAt img{
+.postedAt img {
   width: 4px;
   height: 4px;
   margin-bottom: -50px;
 }
-.postedAtDetail img{
+.postedAtDetail img {
   height: 4px;
 }
 .postedP {
@@ -263,28 +273,26 @@ a {
   transition: color 0.3s ease;
 }
 .position:hover {
-  color: #6E8098 !important;
+  color: #6e8098 !important;
 }
 .location {
   margin: 0;
   height: 14px;
-  color: #5964E0 !important;
+  color: #5964e0 !important;
   font-size: 14px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-
 }
 .topJobDetail {
   display: flex;
   max-width: 730px;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 0 auto;
   height: 140px;
   border-radius: 42px;
   margin-bottom: 32px;
   align-items: center;
-
 }
 .topJob {
   display: flex;
@@ -292,8 +300,8 @@ a {
   align-items: center;
   margin-left: 2em;
 }
-.topJob p{
-  color: #6E8098;
+.topJob p {
+  color: #6e8098;
   font-family: Kumbh Sans;
   margin-left: 10px;
 }
@@ -302,7 +310,7 @@ a {
   left: 0;
   height: 100%;
 }
-.topJobDetail button{
+.topJobDetail button {
   display: flex;
   width: 147px;
   height: 48px;
@@ -311,19 +319,16 @@ a {
   border: none;
   align-items: center;
   justify-content: center;
-  
 }
-.topJobDetail a{
+.topJobDetail a {
   margin-left: auto;
-  margin-right: 43px; 
+  margin-right: 43px;
 }
-.topJobDetail button:hover{
+.topJobDetail button:hover {
   background: #b9bffa !important;
 }
 .topJobBtn {
-  
   font-weight: 700;
-  
 }
 
 .jobDetail {
@@ -331,21 +336,22 @@ a {
   display: flex;
   flex-direction: column;
   text-align: start;
-  background-color: #FFF;
+  background-color: #fff;
   margin: 0 auto;
   border-radius: 6px;
   padding: 2rem;
 }
 
-.jobDetail h1, h2 {
-  color: #19202D;
+.jobDetail h1,
+h2 {
+  color: #19202d;
   width: max-content;
 }
 .jobDetail h2 {
   margin-top: 40px;
 }
 
-.postInfo .location{
+.postInfo .location {
   margin: 0;
 }
 .postedAtDetail {
@@ -364,27 +370,26 @@ a {
   align-items: center;
   height: 48px;
 }
-.jobDetail p, li{
-  color: #6E8098;
+.jobDetail p,
+li {
+  color: #6e8098;
   font-family: "Kumbh Sans";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; 
+  line-height: 26px;
 }
 .jobDetailOl {
   padding-left: 1em;
-
 }
 
 .jobDetailOl li {
-  color: #5964E0; 
+  color: #5964e0;
   font-family: "Kumbh Sans";
   font-weight: 700;
   line-height: 26px;
   padding-left: 20px;
 }
-
 
 .jobDetailUl {
   list-style-type: none;
@@ -394,23 +399,21 @@ a {
 }
 
 .jobDetailUl li::before {
-  content: '\2022';
+  content: "\2022";
   font-size: 1.5em;
-  color: #5964E0; 
+  color: #5964e0;
   margin-right: 32px;
 }
 .jobDetailUl li {
   display: flex;
-  
 }
 
 .jobDetailBottom {
   position: absolute;
   width: 100%;
   left: 0;
-  background-color: #FFF;
+  background-color: #fff;
   height: 96px;
- 
 
   margin-top: 80px;
   margin-bottom: -40px;
@@ -420,9 +423,8 @@ a {
   width: 730px;
   align-items: center;
   margin: 0 auto;
-  
 }
-.jobDetailB button{
+.jobDetailB button {
   margin-left: auto;
 }
 .jobDetailBottomInfo {
@@ -430,42 +432,43 @@ a {
   /* margin-right: -760px; */
 }
 .jobDetailBottom h3 {
-  color: #19202D;
+  color: #19202d;
 }
-.jobDetailBottom p, h3 {
-  color: #6E8098;
+.jobDetailBottom p,
+h3 {
+  color: #6e8098;
   font-family: "Kumbh Sans";
 }
 .jobDetail button {
   margin-right: 8px;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Kumbh Sans";
   font-weight: 700;
   width: 147px;
   height: 48px;
   border-radius: 5px;
-  background: #5964E0;
-  border: none; 
+  background: #5964e0;
+  border: none;
   margin-left: auto;
 }
 .applyNow:hover {
-  background-color: #939BF4;
+  background-color: #939bf4;
 }
-.jobDetailBottom button{
-  color: #FFF;
+.jobDetailBottom button {
+  color: #fff;
   text-align: center;
   font-family: "Kumbh Sans";
   font-weight: 700;
   width: 147px;
   height: 48px;
   border-radius: 5px;
-  background: #5964E0;
+  background: #5964e0;
   border: none;
   margin-left: auto;
 }
 .jobDetailBottom button:hover {
-  background-color: #939BF4;
+  background-color: #939bf4;
 }
 .pcP {
   display: block;
@@ -484,16 +487,16 @@ a {
   width: 141px;
   height: 48px;
   border-radius: 5px;
-  background: #5964E0;
+  background: #5964e0;
   border: none;
-  color: #FFF;
+  color: #fff;
   text-align: center;
   font-family: "Kumbh Sans";
   font-size: 16px;
   font-weight: 700;
 }
 .bottomBtn button:hover {
-  background-color: #939BF4;
+  background-color: #939bf4;
 }
 .bottomBtn {
   width: 1110px;
@@ -503,7 +506,6 @@ a {
 }
 
 @media (max-width: 1270px) {
-  
   /* .TopContainer {
     width: 688px;
   } */
@@ -511,7 +513,7 @@ a {
     width: 689px;
     margin: 0 auto;
   }
-  
+
   .header-left {
     margin-left: 24px;
     margin-right: 0;
@@ -522,7 +524,6 @@ a {
     margin-left: 0;
   }
   .header-middle {
-    
     width: 213px;
   }
   .header-middle input {
@@ -539,7 +540,7 @@ a {
     display: none;
   }
   .mobileP {
-    display: block; 
+    display: block;
     width: max-content;
     font-size: 16px;
     font-weight: 700;
@@ -569,9 +570,9 @@ a {
     width: 689px;
   }
   .jobDetailBottomInfo {
-    margin-right: 0; 
+    margin-right: 0;
   }
-  
+
   .jobDetailB {
     display: flex;
     max-width: 689px;
@@ -579,10 +580,7 @@ a {
   }
   .jobDetailB button {
     margin-left: auto;
-    
   }
-  
-  
 }
 
 @media (max-width: 767px) {
@@ -592,20 +590,19 @@ a {
   .TopContainer {
     width: 327px;
     align-items: center;
-
   }
   .topheader {
     width: 327px;
     margin: 0 auto;
   }
-  
+
   .darkMode {
     margin-left: 10px;
   }
   .header {
     display: none;
   }
-  .jobs{
+  .jobs {
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -629,12 +626,12 @@ a {
     align-items: center;
     justify-content: space-between;
   }
-  .header-leftMobile input{
+  .header-leftMobile input {
     border: none;
     padding-left: 24px;
     outline: none;
   }
-  .header-leftMobile button{
+  .header-leftMobile button {
     width: 48px;
     height: 48px;
     border: none;
@@ -650,12 +647,12 @@ a {
   .modal {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 52%;
     transform: translate(-50%, -50%);
     width: 327px;
     height: 217px;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
   }
   .header-middleMobile {
     display: flex;
@@ -672,7 +669,7 @@ a {
     width: 100%;
     height: 1px;
     opacity: 0.2;
-    background: #6E8098;
+    background: #6e8098;
     margin-top: 24px;
   }
   .header-rightMobile {
@@ -681,30 +678,28 @@ a {
     margin-top: 8px;
     margin-bottom: 8px;
   }
-  
+
   .checkbox-button {
     border-radius: 3px;
     margin-left: 24px;
   }
-  .modalBtn button{
+  .modalBtn button {
     width: 279px;
     height: 48px;
     border-radius: 5px;
-    background: #5964E0;
+    background: #5964e0;
     margin-left: 24px;
     border: none;
-    color: #FFF;
+    color: #fff;
     font-family: "Kumbh Sans";
     font-size: 16px;
     font-weight: 700;
     top: 24px;
-  } 
+  }
   .topJob {
     margin-left: 0;
-    
   }
-  
- 
+
   .topJob p {
     margin-top: 5px;
   }
@@ -714,7 +709,6 @@ a {
     bottom: 0;
     width: 50px;
     height: 50px;
-    
   }
   .topJobDetail {
     width: 327px;
@@ -724,7 +718,7 @@ a {
     justify-content: center;
     margin-top: 57px;
   }
-  .topJobDetail button{
+  .topJobDetail button {
     position: relative;
     top: -25px;
   }
@@ -770,7 +764,7 @@ a {
     align-items: center;
     width: 100%;
   }
-  
+
   .jobDetailBottom button {
     width: 327px;
   }
@@ -780,5 +774,4 @@ a {
   .bottomBtn {
     width: 327px;
   }
-
 }
